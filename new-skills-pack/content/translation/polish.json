@@ -1,0 +1,18 @@
+{
+	"skill.fallains-new-skills.fbanatomy.description.advanced" : "{Zaawansowana Anatomia}\n\nPozwala wszystkim jednostkom w twojej armii znajdować słabe punkty u wrogich stworzeń, dając im 10% szans na zadanie podwójnych obrażeń.",
+	"skill.fallains-new-skills.fbanatomy.description.basic" : "{Podstawowa Anatomia}\n\nPozwala wszystkim jednostkom w twojej armii znajdować słabe punkty u wrogich stworzeń, dając im 5% szans na zadanie podwójnych obrażeń.",
+	"skill.fallains-new-skills.fbanatomy.description.expert" : "{Ekspercka Anatomia}\n\nPozwala wszystkim jednostkom w twojej armii znajdować słabe punkty u wrogich stworzeń, dając im 15% szans na zadanie podwójnych obrażeń.",
+	"skill.fallains-new-skills.fbanatomy.name" : "Anatomia",
+	"skill.fallains-new-skills.fbfury.description.advanced" : "{Zaawansowana Furia}\n\nFuria Bitewna zwiększa liczbę zabitych przez twoje jednostki wrogów o 10%.",
+	"skill.fallains-new-skills.fbfury.description.basic" : "{Podstawowa Furia}\n\nFuria Bitewna zwiększa liczbę zabitych przez twoje jednostki wrogów o 5%.",
+	"skill.fallains-new-skills.fbfury.description.expert" : "{Ekspercka Furia}\n\nFuria Bitewna zwiększa liczbę zabitych przez twoje jednostki wrogów o 15%.",
+	"skill.fallains-new-skills.fbfury.name" : "Furia",
+	"skill.fallains-new-skills.fbimpact.description.advanced" : "{Zaawansowane Uderzenie}\n\nNiespotykana szybkość i siła ciosów twoich jednostek obniża obronę przeciwnika o 10%.",
+	"skill.fallains-new-skills.fbimpact.description.basic" : "{Podstawowe Uderzenie}\n\nNiespotykana szybkość i siła ciosów twoich jednostek obniża obronę przeciwnika o 5%.",
+	"skill.fallains-new-skills.fbimpact.description.expert" : "{Eksperckie Uderzenie}\n\nNiespotykana szybkość i siła ciosów twoich jednostek obniża obronę przeciwnika o 15%.",
+	"skill.fallains-new-skills.fbimpact.name" : "Uderzenie",
+	"skill.fallains-new-skills.fbwardance.description.advanced" : "{Zaawansowana Zwinność}\n\nZwinność pozwala twojej jednostce częściowo unikać ataku wroga, zmniejszając jego siłę ataku o 10%.",
+	"skill.fallains-new-skills.fbwardance.description.basic" : "{Podstawowa Zwinność}\n\nZwinność pozwala twojej jednostce częściowo unikać ataku wroga, zmniejszając jego siłę ataku o 5%.",
+	"skill.fallains-new-skills.fbwardance.description.expert" : "{Ekspercka Zwinność}\n\nZwinność pozwala twojej jednostce częściowo unikać ataku wroga, zmniejszając jego siłę ataku o 15%.",
+	"skill.fallains-new-skills.fbwardance.name" : "Zwinność"
+}

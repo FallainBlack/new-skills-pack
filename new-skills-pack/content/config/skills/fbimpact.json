@@ -1,0 +1,49 @@
+{
+	"fbimpact": {
+		"name": "Impact",
+		"gainChance": {
+			"might": 1,
+			"magic": 1
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION"
+				}
+			}
+		},
+		"basic": {
+			"images": {
+				"small": "skills/fbimpact/bsmall",
+				"medium": "skills/fbimpact/bmedium",
+				"large": "skills/fbimpact/blarge"
+			},
+			"description": "{Basic Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%.",
+			"effects" : {
+				"main" : { "val" : 5}
+			}
+		},
+		"advanced": {
+			"images": {
+				"small": "skills/fbimpact/asmall",
+				"medium": "skills/fbimpact/amedium",
+				"large": "skills/fbimpact/alarge"
+			},
+			"description": "{Advanced Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 10%.",
+			"effects" : {
+				"main" : { "val" : 10}
+			}
+		},
+		"expert": {
+			"images": {
+				"small": "skills/fbimpact/esmall",
+				"medium": "skills/fbimpact/emedium",
+				"large": "skills/fbimpact/elarge"
+			},
+			"description": "{Expert Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 15%.",
+			"effects" : {
+				"main" : { "val" : 15}
+			}
+		}
+	}
+}

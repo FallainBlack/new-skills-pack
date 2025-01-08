@@ -1,0 +1,25 @@
+{
+	"name" : "New Skills Pack",
+	"description" : "Four unique new skills with small chance of learning them",
+	"author": "FallainBlack",
+	"version" : "1.0",
+        "modType" : "Skills", 
+	"changelog" :
+	{
+                "1.0" : [ "Initial release" ]
+        },
+	"polish" : {
+		"name" : "Paczka nowych umiejętności",
+		"description" : "Cztery unikalne umiejętności drugorzędne z małą szansą na ich naukę",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+        "skills" :
+	[
+		"config/skills/fbfury.json",
+                "config/skills/fbanatomy.json",
+                "config/skills/fbimpact.json",
+                "config/skills/fbnimbleness.json"
+	]
+}

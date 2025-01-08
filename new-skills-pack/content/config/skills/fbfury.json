@@ -1,0 +1,50 @@
+{
+	"fbfury": {
+		"name": "Fury",
+		"gainChance": {
+			"might": 1,
+			"magic": 1
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "DESTRUCTION",
+                                        "subtype" : "destructionKillPercentage"
+				}
+			}
+		},
+		"basic": {
+			"images": {
+				"small": "skills/fbfury/bsmall",
+				"medium": "skills/fbfury/bmedium",
+				"large": "skills/fbfury/blarge"
+			},
+			"description": "{Basic Fury}\n\nBattle Fury increases the number of enemies killed by your units by 5%.",
+			"effects" : {
+				"main" : { "val" : 5}
+			}
+		},
+		"advanced": {
+			"images": {
+				"small": "skills/fbfury/asmall",
+				"medium": "skills/fbfury/amedium",
+				"large": "skills/fbfury/alarge"
+			},
+			"description": "{Advanced Fury}\n\nBattle Fury increases the number of enemies killed by your units by 10%.",
+			"effects" : {
+				"main" : { "val" : 10}
+			}
+		},
+		"expert": {
+			"images": {
+				"small": "skills/fbfury/esmall",
+				"medium": "skills/fbfury/emedium",
+				"large": "skills/fbfury/elarge"
+			},
+			"description": "{Expert Fury}\n\nBattle Fury increases the number of enemies killed by your units by 15%.",
+			"effects" : {
+				"main" : { "val" : 15}
+			}
+		}
+	}
+}
