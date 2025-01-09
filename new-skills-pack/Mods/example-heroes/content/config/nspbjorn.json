@@ -55,7 +55,7 @@
         "specialty": 
 		{
 			"bonuses" : {
-				"ENEMY_DEFENCE_REDUCTION" : {
+				"fbimpact" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION",
                                         "targetSourceType" : "SECONDARY_SKILL",
 					"val" : 0,

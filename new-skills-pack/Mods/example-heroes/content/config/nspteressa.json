@@ -50,7 +50,7 @@
         ],
         "specialty": {
             "bonuses": {
-                "DOUBLE_DAMAGE_CHANCE": {
+                "fbanatomy": {
                     "type": "DOUBLE_DAMAGE_CHANCE",
                     "targetSourceType": "SECONDARY_SKILL",
                     "val": 0,

@@ -40,7 +40,7 @@
   "specialty": 
 		{
 			"bonuses" : {
-				"ENEMY_ATTACK_REDUCTION" : {
+				"fbnimbleness" : {
 					"type" : "ENEMY_ATTACK_REDUCTION",
                                         "targetSourceType" : "SECONDARY_SKILL",
 					"val" : 0,
