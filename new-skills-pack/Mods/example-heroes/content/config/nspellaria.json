@@ -56,7 +56,7 @@
 			"biography": "Ellaria was a member of an elite group of AvLee border guards called the War Dancers. After the invasion of Kreegen, she is the last of them. To this day, Ellaria guards AvLee's borders and makes guerrilla attacks on the enemies of her home.",
 			"name": "Ellaria",
 			"specialty": {
-				"description": "Increase Nimbleness by 1% per Heroe level",
+				"description": "Increase Nimbleness by 1% per 2 Heroe levels",
 				"name": "Nimbleness",
 				"tooltip": "Secondary skill bonus: Nimbleness"
 			}
