@@ -1,0 +1,65 @@
+{
+	"nspellaria": {
+		"army" : [
+			{
+				"creature" : "dwarf",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "dendroidGuard",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+
+		"female": true,
+		"class": "ranger",
+    "images" :
+    {
+      "specialtySmall" : "spec/nimblenesss.png",
+      "specialtyLarge" : "spec/nimblenessl.png",
+      "small" : "heroes/nspellaria/nspellarias",
+      "large" : "heroes/nspellaria/nspellarial"
+    },
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "fbnimbleness"
+			},
+			{
+				"level": "basic",
+				"skill": "tactics"
+			}
+		],
+  "specialty": 
+		{
+			"bonuses" : {
+				"ENEMY_ATTACK_REDUCTION" : {
+					"type" : "ENEMY_ATTACK_REDUCTION",
+                                        "targetSourceType" : "SECONDARY_SKILL",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",
+										"updater" : {
+    "parameters" : [ 10, 1 ],
+    "type" : "GROWS_WITH_LEVEL"
+}
+				}
+			}
+		},
+		"texts": {
+			"biography": "Ellaria was a member of an elite group of AvLee border guards called the War Dancers. After the invasion of Kreegen, she is the last of them. To this day, Ellaria guards AvLee's borders and makes guerrilla attacks on the enemies of her home.",
+			"name": "Ellaria",
+			"specialty": {
+				"description": "Increase Nimbleness by 1% per Heroe level",
+				"name": "Nimbleness",
+				"tooltip": "Secondary skill bonus: Nimbleness"
+			}
+		}
+	}
+}

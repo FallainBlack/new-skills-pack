@@ -1,0 +1,69 @@
+{
+    "nspteressa": {
+        "class": "necromancer",
+        "female": true,
+        "special": false,
+        "texts": {
+            "name": "Teressa",
+            "biography": "Teressa lived alone for many years in a small hut on the border of Deyja. Although she was alienated by people because of her medical research, she never refused to help them. After all, she did not die at the hand of the undead... but of a human.. Teressa dead body was founded by one of the Necromancers and brought back as an undead. The Necromancer took her under his care and taught her. Now that she is a Necromancer herself, she curses her tormentors and wants to take back from them what they took from her...their life",
+            "specialty": {
+                "description": "Increase Anatomy skill by 1% per 2 hero levels.",
+                "tooltip": "Secondary Skill Bonus: Anatomy",
+                "name": "Anatomy"
+            }
+        },
+        "images": {
+            "specialtySmall": "spec/anatomys.png",
+            "specialtyLarge": "spec/anatomyl.png",
+            "small": "heroes/nspteressa/nspteressas.png",
+            "large": "heroes/nspteressa/nspteressal.png"
+        },
+        "army": [
+            {
+                "creature": "skeleton",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "walkingDead",
+                "max": 6,
+                "min": 4
+            },
+            {
+                "creature": "wight",
+                "max": 6,
+                "min": 4
+            }
+        ],
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "necromancy"
+            },
+            {
+                "level": "basic",
+                "skill": "fbanatomy"
+            }
+        ],
+        "spellbook": [
+            "sorrow"
+        ],
+        "specialty": {
+            "bonuses": {
+                "DOUBLE_DAMAGE_CHANCE": {
+                    "type": "DOUBLE_DAMAGE_CHANCE",
+                    "targetSourceType": "SECONDARY_SKILL",
+                    "val": 0,
+                    "valueType": "ADDITIVE_VALUE",
+                    "updater": {
+                        "parameters": [
+                            10,
+                            1
+                        ],
+                        "type": "GROWS_WITH_LEVEL"
+                    }
+                }
+            }
+        }
+    }
+}

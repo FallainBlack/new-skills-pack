@@ -1,0 +1,17 @@
+{
+	"name" : "Example Specialized Heroes",
+	"description" : "New Heroes specialized with new skills",
+	"author": "FallainBlack",
+        "modType" : "Heroes", 
+	"polish" : {
+		"name" : "Przykładowi wyspecjalizowani bohaterowie",
+		"description" : "Nowi bohaterowie wyspecjalizowani w nowych umiejętnościach"
+		},
+        "heroes" :
+	[
+		"config/nspfury.json",
+                "config/nspbjorn.json",
+                "config/nspellaria.json",
+                "config/nspteressa.json"
+	]
+}
