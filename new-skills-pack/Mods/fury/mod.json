@@ -1,0 +1,15 @@
+{
+	"name" : "Fury Skill",
+	"description" : "Battle Fury increases the number of enemies killed by your units by 5%/10%/15%. Additionally, Ex - the heroine of Inferno, with a specialization in Fury skill",
+	"author": "FallainBlack",
+        "modType" : "Skills", 
+        "skills" :
+	[
+                "config/skills/fbfury.json"
+
+	],
+        "heroes" :
+	[
+                "config/heroes/nspex.json"
+	]
+}

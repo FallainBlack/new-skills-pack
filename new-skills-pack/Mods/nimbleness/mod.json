@@ -1,0 +1,15 @@
+{
+	"name" : "Nimbleness Skill",
+	"description" : "Nimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%/10%/15%. Additionally, Ellaria - the heroine of Rampart with a specialization in Nimbleness skill",
+	"author": "FallainBlack",
+        "modType" : "Skills", 
+        "skills" :
+	[
+                "config/skills/fbnimbleness.json"
+
+	],
+        "heroes" :
+	[
+                "config/heroes/nspellaria.json"
+	]
+}

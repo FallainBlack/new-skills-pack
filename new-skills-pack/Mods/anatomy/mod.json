@@ -1,0 +1,15 @@
+{
+	"name" : "Anatomy Skill",
+	"description" : "Allows all units in your army to find weak points on enemy creatures, giving them a 5%/10%/15% chance to deal double damage. Additionally, Teressa - the heroine of Necropolis, with a specialization in Anatomy skill",
+	"author": "FallainBlack",
+        "modType" : "Skills", 
+        "skills" :
+	[
+                "config/skills/fbanatomy.json"
+
+	],
+        "heroes" :
+	[
+                "config/heroes/nspteressa.json"
+	]
+}

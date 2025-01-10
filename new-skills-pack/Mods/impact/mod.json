@@ -1,0 +1,15 @@
+{
+	"name" : "Impact Skill",
+	"description" : "The unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%/10%/15%. Additionally, Bjorn - Castle heroe with a specialization in Impact skill",
+	"author": "FallainBlack",
+        "modType" : "Skills", 
+        "skills" :
+	[
+                "config/skills/fbimpact.json"
+
+	],
+        "heroes" :
+	[
+                "config/heroes/nspbjorn.json"
+	]
+}

@@ -1,8 +1,8 @@
 {
 	"name" : "New Skills Pack",
-	"description" : "Four unique new skills with small chance of learning them",
-	"author": "FallainBlack",
-	"version" : "1.0",
+	"description" : "New secondary skills pack",
+	"author": "FallainBlack(fury,anatomy,impact&nimbleness),avatar(magic fader)",
+	"version" : "1",
         "modType" : "Skills", 
 	"changelog" :
 	{
@@ -10,16 +10,9 @@
         },
 	"polish" : {
 		"name" : "Paczka nowych umiejętności",
-		"description" : "Cztery unikalne umiejętności drugorzędne z małą szansą na ich naukę",
+		"description" : "Paczka nowych umiejętności drugorzędnych",
 		"translations" : [
 			"translation/polish.json"
 		]
-	},
-        "skills" :
-	[
-		"config/skills/fbfury.json",
-                "config/skills/fbanatomy.json",
-                "config/skills/fbimpact.json",
-                "config/skills/fbnimbleness.json"
-	]
+	}
 }
