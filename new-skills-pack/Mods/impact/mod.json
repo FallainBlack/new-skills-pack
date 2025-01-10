@@ -1,8 +1,12 @@
 {
 	"name" : "Impact Skill",
-	"description" : "The unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%/10%/15%. Additionally, Bjorn - Castle heroe with a specialization in Impact skill",
+	"description" : "Niespotykana prędkość i siła uderzeń twoich jednostek obniża obronę wroga o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo: Bjorn - Bohater zamku ze specjalizacją w umiejętności Uderzenie",
 	"author": "FallainBlack",
         "modType" : "Skills", 
+	"polish" : {
+		"name" : "Uderzenie",
+		"description" : "Zwinność pozwala twoim jednostkom częściowo uniknąć ataku wroga, zmniejszając jego atak o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo: Ellaria - bohaterka Rampart ze specjalizacją w umiejętności Zwinność"
+	},
         "skills" :
 	[
                 "config/skills/fbimpact.json"

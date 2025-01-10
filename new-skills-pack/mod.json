@@ -1,11 +1,12 @@
 {
 	"name" : "New Skills Pack",
 	"description" : "New secondary skills pack",
-	"author": "FallainBlack(fury,anatomy,impact&nimbleness),avatar(magic fader)",
-	"version" : "1",
+	"author": "FallainBlack(fury,anatomy,impact,nimbleness),avatar(magic fader)",
+	"version" : "1.0.1",
         "modType" : "Skills", 
 	"changelog" :
 	{
+                "1.0.1" : [ "Change of file structure, minor fix, Polish translation added" ],
                 "1.0" : [ "Initial release" ]
         },
 	"polish" : {
