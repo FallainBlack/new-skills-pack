@@ -1,0 +1,69 @@
+{
+    "nspaldarion": {
+        "class": "alchemist",
+        "female": false,
+        "images": {
+	"specialtyLarge" : "spec/furyl.png",
+	"specialtySmall" : "spec/furys.png",
+        "large": "heroes/nspaldarion/nspaldarionl",
+        "small": "heroes/nspaldarion/nspaldarions"
+        },
+        "army": [
+            {
+                "creature": "gremlin",
+                "min": 30,
+                "max": 40
+            },
+            {
+                "creature": "stoneGargoyle",
+                "min": 3,
+                "max": 5
+            },
+            {
+                "creature": "ironGolem",
+                "min": 2,
+                "max": 3
+            }
+        ],
+        "skills": [
+            {
+                "skill": "fbfury",
+                "level": "basic"
+            },
+            {
+                "skill": "offence",
+                "level": "basic"
+            }
+        ],
+        "specialty": {
+            "bonuses": {
+                "fbfury": {
+                    "subtype": "destructionKillPercentage",
+                    "targetSourceType": "SECONDARY_SKILL",
+                    "type": "DESTRUCTION",
+                    "val": 0,
+                    "valueType": "ADDITIVE_VALUE",
+                    "updater": {
+                        "parameters": [
+                            10,
+                            1
+                        ],
+                        "type": "GROWS_WITH_LEVEL"
+                    }
+                }
+            }
+        },
+        "spellbook": [
+            "berserk"
+        ],
+        "texts": {
+            "name": "Aldarion",
+            "biography": "Aldarion of Bracada, also known as Aldarion the Furious, always wanted to become a wizard, but he had no talent for it, which made him furious. His early attempts to become an alchemist led to many accidents, causing his rage to grow.... He is the furiousst known alchemist in all of Enroth.",
+            "specialty": {
+                "tooltip": "Secondary skill bonus: Fury",
+                "name": "Fury",
+                "description": "Increase Fury skill by 1% per 2 Heroe levels."
+            }
+        }
+    }
+}
