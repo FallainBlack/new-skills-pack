@@ -1,11 +1,11 @@
 {
 	"name" : "Nimbleness Skill",
-	"description" : "Nimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally: Ellaria - the heroine of Rampart with a specialization in Nimbleness skill",
+	"description" : "Nimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Ellaria(Rampart) and Newt(Fortress)t with a specialization in Nimbleness skill",
 	"author": "FallainBlack",
         "modType" : "Skills", 
 	"polish" : {
 		"name" : "Zwinność",
-		"description" : "Zwinność pozwala twoim jednostkom częściowo uniknąć ataku wroga, zmniejszając jego atak o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo: Ellaria - bohaterka Rampart ze specjalizacją w umiejętności Zwinność"
+		"description" : "Zwinność pozwala twoim jednostkom częściowo uniknąć ataku wroga, zmniejszając jego atak o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Ellaria(Rampart) i Traszka(Fortress) ze specjalizacją w umiejętności Zwinność"
 	},
         "skills" :
 	[
@@ -14,6 +14,7 @@
 	],
         "heroes" :
 	[
-                "config/heroes/nspellaria.json"
+                "config/heroes/nspellaria.json",
+                "config/heroes/nspnewt.json"
 	]
 }

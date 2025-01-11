@@ -1,11 +1,11 @@
 {
 	"name" : "Anatomy Skill",
-	"description" : "Allows all units in your army to find weak points on enemy creatures, giving them a 5%/10%/15% chance to deal double damage.The chance of learning a skill randomly is minimal (1). Additionally: Teressa - the heroine of Necropolis, with a specialization in Anatomy skill",
+	"description" : "Allows all units in your army to find weak points on enemy creatures, giving them a 5%/10%/15% chance to deal double damage.The chance of learning a skill randomly is minimal (1). Additionally new heroes - Teressa(Necropolis) and Gwydion(Tower), with a specialization in Anatomy skill",
 	"author": "FallainBlack",
         "modType" : "Skills",
 	"polish" : {
 		"name" : "Anatomia",
-		"description" : "Pozwala wszystkim jednostkom w twojej armii znaleźć słabe punkty u wrogich stworzeń, dając im 5%/10%/15% szansy na zadanie podwójnych obrażeń. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo: Teressa - bohaterka Nekropolii, ze specjalizacją w umiejętności Anatomia"
+		"description" : "Pozwala wszystkim jednostkom w twojej armii znaleźć słabe punkty u wrogich stworzeń, dając im 5%/10%/15% szansy na zadanie podwójnych obrażeń. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Teressa(NekropoliS) i Gwydion(Tower), ze specjalizacją w umiejętności Anatomia"
 	}, 
         "skills" :
 	[
@@ -14,6 +14,7 @@
 	],
         "heroes" :
 	[
-                "config/heroes/nspteressa.json"
+                "config/heroes/nspteressa.json",
+                "config/heroes/nspgwydion.json"
 	]
 }

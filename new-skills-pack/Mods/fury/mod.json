@@ -1,11 +1,11 @@
 {
 	"name" : "Fury Skill",
-	"description" : "Battle Fury increases the number of enemies killed by your units by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally: Ex - the heroine of Inferno, with a specialization in Fury skill",
+	"description" : "Battle Fury increases the number of enemies killed by your units by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Ex(Inferno) and Aldarion(Dungeon) with a specialization in Fury skill",
 	"author": "FallainBlack",
         "modType" : "Skills", 
 	"polish" : {
 		"name" : "Furia",
-		"description" : "Furia Bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo: Ex - bohaterka Inferno, ze specjalizacją w umiejętności Fuia"
+		"description" : "Furia Bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Ex(Inferno) i Aldarion(Dungeon) ze specjalizacją w umiejętności Fuia"
 	},
         "skills" :
 	[

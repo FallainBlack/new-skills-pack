@@ -1,6 +1,6 @@
 {
     "nspaldarion": {
-        "class": "alchemist",
+        "class": "warlock",
         "female": false,
         "images": {
 	"specialtyLarge" : "spec/furyl.png",
@@ -9,22 +9,22 @@
         "small": "heroes/nspaldarion/nspaldarions"
         },
         "army": [
-            {
-                "creature": "gremlin",
-                "min": 30,
-                "max": 40
-            },
-            {
-                "creature": "stoneGargoyle",
-                "min": 3,
-                "max": 5
-            },
-            {
-                "creature": "ironGolem",
-                "min": 2,
-                "max": 3
-            }
-        ],
+      {
+        "creature" : "troglodyte",
+        "max" : 20,
+        "min" : 20
+      },
+      {
+        "creature" : "harpy",
+        "max" : 5,
+        "min" : 5
+      },
+      {
+        "creature" : "harpy",
+        "max" : 5,
+        "min" : 5
+      }
+    ],
         "skills": [
             {
                 "skill": "fbfury",
@@ -58,7 +58,7 @@
         ],
         "texts": {
             "name": "Aldarion",
-            "biography": "Aldarion of Bracada, also known as Aldarion the Furious, always wanted to become a wizard, but he had no talent for it, which made him furious. His early attempts to become an alchemist led to many accidents, causing his rage to grow.... He is the furiousst known alchemist in all of Enroth.",
+            "biography": "Aldarion the Furious, always wanted to become a warlock, but He didn't have the talent for it at first, which made him furious. His early attempts to become an warlock led to many accidents, causing his rage to grow.... He is the furiousst known warlock in all of Nighon.",
             "specialty": {
                 "tooltip": "Secondary skill bonus: Fury",
                 "name": "Fury",
