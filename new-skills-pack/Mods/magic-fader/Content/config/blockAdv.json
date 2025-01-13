@@ -5,7 +5,7 @@
 		"name": "Magic Fader",
 		"school":
 			{
-				"air": false, //true
+				"air": true,
 				"earth": false,
 				"fire": false,
 				"water": false

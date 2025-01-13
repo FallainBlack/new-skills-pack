@@ -1,9 +1,8 @@
 {
 	"magicFader" : {
 		"name" : "Magic Fader",
-//		"defaultGainChance" : 4,
 		"gainChance" : {
-			"might" : 4,
+			"might" : 1,
 			"magic" : 1
 		},
 		"base" : {
