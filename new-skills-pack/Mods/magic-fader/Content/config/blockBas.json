@@ -12,8 +12,9 @@
 			},
 	"animation":{	
 	},
-	"sounds": {
-	},		
+		"sounds": {
+			"cast": "fader.wav"
+		},		
 	"level": 1,
 	"power": 1,
 	"defaultGainChance": 0, 
@@ -46,8 +47,10 @@
 			"effects" : {
 				"magicBlock" : {				
 					"type" : "BLOCK_MAGIC_ABOVE",
-					"val" : 4,
-					"propagator": "HERO",
+					"val" : 2,
+					"propagator": "BATTLE_WIDE",
+						"limiters": [ "OPPOSITE_SIDE" ],
+           "propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"duration" : "ONE_BATTLE"
 				}
 			}
