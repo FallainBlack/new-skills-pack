@@ -5,10 +5,11 @@
 	"min" : "1.0.0"
 	},
 	"description" : "New secondary skill: Magic Fader. Partially blocks casting spells by enemy hero.",
-	"version" : "1.0.3",
+	"version" : "2.0",
 	"author" : "avatar. Graphic: HotA Team (rejected material).",
 	"changelog" :
     {
+        "2.0.0" : [ "Magic fader reworked. Added sound, animation (from Ben Yan)" ],
         "1.0.3" : [ "Added russian translation by Keloraen", "Added polish translation by FallainBlack" ],
         "1.0.2" : [ "Czech translation by George King" ],
 		"1.0.1" : [ "Added Chinese translation" ],

@@ -10,7 +10,8 @@
 				"fire": false,
 				"water": false
 			},
-	"animation":{	
+	"animation":{
+"affect" : ["spells/magicBook.def"]	
 	},
 		"sounds": {
 			"cast": "fader.wav"
@@ -27,10 +28,10 @@
 	},
 	"graphics":
 	{
-		"iconBook": "spells/null",
-		"iconScroll": "spells/null",
-		"iconScenarioBonus": "spells/null",
-		"iconEffect": "spells/null"
+		"iconBook": "spells/null.png",
+		"iconScroll": "spells/null.png",
+		"iconScenarioBonus": "spells/null.png",
+		"iconEffect": "spells/null.png"
 	},
 	"targetType" : "NO_TARGET",
 
@@ -40,21 +41,25 @@
 		{
 			"description": "{Advanced Magic Fader}\n\nDuring battle blocks casting 4th-5th lvl spells by enemy hero.",
 			"power": 1,
-			"range": "0",
+			"range": "X",
 			"cost": 0,
 			"aiValue": 10,
 			"targetModifier":{"smart":true},
 			"effects" : {
-				"magicBlock" : {				
-					"type" : "BLOCK_MAGIC_ABOVE",
-					"val" : 2,
-					"propagator": "BATTLE_WIDE",
-						"limiters": [ "OPPOSITE_SIDE" ],
-           "propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"duration" : "ONE_BATTLE"
-				}
-			}
-		},
+				`"power": 1,
+            "range": "X",
+            "cost": 0,
+            "aiValue": 10,
+            "targetModifier":{"smart":true},
+            "effects" : {
+                "magicBlock" : {                
+                    "type" : "BLOCK_MAGIC_ABOVE",
+                    "val" : 3,
+                    "propagator": "HERO",
+                    "duration" : "ONE_BATTLE"
+                   }
+}
+                },
 		"none":
 		{ 			
 		},
