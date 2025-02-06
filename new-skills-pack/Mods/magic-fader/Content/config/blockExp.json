@@ -44,7 +44,7 @@
                 "effects": {
                     "magicBlock": {
                         "type": "BLOCK_MAGIC_ABOVE",
-                        "val": 3,
+                        "val": 2,
                         "propagator": "HERO",
                         "duration": "ONE_BATTLE"
                     }
