@@ -28,8 +28,8 @@
 	},
 	"graphics":
 	{
-		"iconBook": "spells/null.png",
-		"iconScroll": "spells/null.png",
+		"iconBook": "spells/spell.png",
+		"iconScroll": "spells/scroll.png",
 		"iconScenarioBonus": "spells/null.png",
 		"iconEffect": "spells/null.png"
 	},
