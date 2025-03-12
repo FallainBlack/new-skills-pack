@@ -2,19 +2,27 @@
 	"name" : "Fury Skill",
 	"description" : "Battle Fury increases the number of enemies killed by your units by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Ex(Inferno) and Aldarion(Dungeon) with a specialization in Fury skill",
 	"author": "FallainBlack",
-        "modType" : "Skills", 
+	"version" : "1.0.0",
+    "modType" : "Skills",
+	"contact" : "https://discord.gg/PDXDf8P8",
+	"changelog" :
+	{
+        "1.0.0" : [ "Initial release" ]
+	},
+
+	"skills" :
+	[
+        "config/skills/fbfury.json"
+	],
+	
+	"heroes" :
+	[
+        "config/heroes/nspex.json",
+        "config/heroes/nspaldarion.json"
+	],
+	
 	"polish" : {
 		"name" : "Furia",
 		"description" : "Furia Bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Ex(Inferno) i Aldarion(Dungeon) ze specjalizacją w umiejętności Fuia"
-	},
-        "skills" :
-	[
-                "config/skills/fbfury.json"
-
-	],
-        "heroes" :
-	[
-                "config/heroes/nspex.json",
-                "config/heroes/nspaldarion.json"
-	]
+	}
 }

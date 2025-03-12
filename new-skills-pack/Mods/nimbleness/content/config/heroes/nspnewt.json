@@ -5,7 +5,6 @@
         "texts": {
             "name": "Newt",
             "biography": "Newt hatched as very small lizardwoman.She quickly learned to awoid the blows of the stronger lizardmen who despised her. Newt is good at avoiding enemy hits, and her good eyesight makes her an excellent scout.",
-            "description": "Increase Nimbleness by 1% per 2 Heroe levels",
             "specialty": {
                 "description": "Increase Nimbleness by 1% per 2 Heroe levels",
                 "name": "Nimbleness",
@@ -36,14 +35,14 @@
             }
         ],
         "skills": [
-            {
-                "level": "basic",
-                "skill": "fbnimbleness"
-            },
-            {
-                "level": "basic",
-                "skill": "Scouting"
-            }
+			{
+				"level": "basic",
+				"skill": "fbnimbleness"
+			},
+			{
+				"level": "basic",
+				"skill": "scouting"
+			}
         ],
         "specialty": {
             "bonuses": {
