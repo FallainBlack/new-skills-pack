@@ -1,17 +1,20 @@
 {
 	"name" : "New Skills Pack",
 	"description" : "New secondary skills pack",
-	"author": "FallainBlack(fury,anatomy,impact,nimbleness),avatar(magic fader)",
-	"version" : "1.0.4",
-        "modType" : "Skills", 
+	"author": "FallainBlack (fury,anatomy,impact,nimbleness), avatar (magic fader)",
+	"version" : "1.0.5",
+    "modType" : "Skills",
+	"contact" : "https://discord.gg/PDXDf8P8",
 	"changelog" :
 	{
-                "1.0.4" : [ "magic fader update" ],
-                "1.0.3" : [ "magic fader fix" ],
-                "1.0.2" : [ "bug fix, new content, translation fix" ],
-                "1.0.1" : [ "Change of file structure, minor fix, Polish translation added" ],
-                "1.0" : [ "Initial release" ]
-        },
+        "1.0.5" : [ "Fixed console warnings" ],
+		"1.0.4" : [ "magic fader update" ],
+        "1.0.3" : [ "magic fader fix" ],
+        "1.0.2" : [ "bug fix, new content, translation fix" ],
+        "1.0.1" : [ "Change of file structure, minor fix, Polish translation added" ],
+        "1.0.0" : [ "Initial release" ]
+	},
+		
 	"polish" : {
 		"name" : "Paczka nowych umiejętności",
 		"description" : "Paczka nowych umiejętności drugorzędnych",

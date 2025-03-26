@@ -15,7 +15,7 @@
 		"basic": {
 			"images": {
 				"small": "skills/fbnimbleness/bnimblenesssmall",
-				"medium":"skills/fbnimbleness/bwnimblenessmedium",
+				"medium":"skills/fbnimbleness/bnimblenessmedium",
 				"large": "skills/fbnimbleness/bnimblenesslarge"
 			},
 			"description": "{Basic Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%.",
@@ -26,7 +26,7 @@
 		"advanced": {
 			"images": {
 				"small": "skills/fbnimbleness/animblenesssmall",
-				"medium": "skills/fbnimbleness/animblenessemedium",
+				"medium": "skills/fbnimbleness/animblenessmedium",
 				"large": "skills/fbnimbleness/animblenesslarge"
 			},
 			"description": "{Advanced Nimbleness\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 10%.",

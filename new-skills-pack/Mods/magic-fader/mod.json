@@ -1,12 +1,14 @@
 {
 	"name" : "Magic Fader",
+	"description" : "New secondary skill: Magic Fader. Partially blocks casting spells by enemy hero.",
+	"version" : "2.0.0",
+	"author" : "avatar. Graphic: HotA Team (rejected material).",
+	"contact" : "",
+	"modType" : "Skills",
 	"compatibility":
 	{
-	"min" : "1.0.0"
-	},
-	"description" : "New secondary skill: Magic Fader. Partially blocks casting spells by enemy hero.",
-	"version" : "2.0",
-	"author" : "avatar. Graphic: HotA Team (rejected material).",
+		"min" : "1.6.0"
+	},	
 	"changelog" :
     {
         "2.0.0" : [ "Magic fader reworked. Added sound, animation (from Ben Yan)" ],
@@ -15,6 +17,19 @@
 		"1.0.1" : [ "Added Chinese translation" ],
 		"1.0.0" : [ "Initial release" ]
     },
+	
+	"skills" : 
+	[
+		"config/magicFader.json"
+	],
+	
+	"spells" : 
+	[
+		"config/blockBas.json",
+		"config/blockAdv.json",
+		"config/blockExp.json"
+	],
+	
 	"chinese" : {
 		"name" : "法术抑制",
 		"description" : "添加新技能：法术抑制。 阻止敌方英雄施放部分法术。",
@@ -39,17 +54,5 @@
 	"polish" : {
 		"name" : "Tłumienie magii",
 		"description" : "Nowa umiejętność: Tłumienie magii. Częściowo blokuje możliwość rzucania czarów przez wrogich bohaterów."
-	},
-	"contact" : "",
-	"modType" : "Skills",
-	"skills" : 
-	[
-		"config/magicFader.json"
-	],
-	"spells" : 
-	[
-		"config/blockBas.json",
-		"config/blockAdv.json",
-		"config/blockExp.json"
-	]
+	}
 }

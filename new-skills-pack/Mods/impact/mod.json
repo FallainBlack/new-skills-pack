@@ -2,19 +2,27 @@
 	"name" : "Impact Skill",
 	"description" : "The unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Bjorn(Castle) and Tharag(Stronghold) with a specialization in Impact skill",
 	"author": "FallainBlack",
-        "modType" : "Skills", 
+	"version" : "1.0.0",
+    "modType" : "Skills",
+	"contact" : "https://discord.gg/PDXDf8P8",
+	"changelog" :
+	{
+        "1.0.0" : [ "Initial release" ]
+	},
+
+	"skills" :
+	[
+		"config/skills/fbimpact.json"
+	],
+	
+    "heroes" :
+	[
+		"config/heroes/nspbjorn.json",
+		"config/heroes/nsptharag.json"
+	],
+	
 	"polish" : {
 		"name" : "Uderzenie",
 		"description" : "ZBezprecedensowa szybkość i siła ciosów Twoich jednostek obniża obronę wroga o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie Bjorn(Castle) i Tharag(Stronghold) ze specjalizacją w umiejętności Uderzenie"
-	},
-        "skills" :
-	[
-                "config/skills/fbimpact.json"
-
-	],
-        "heroes" :
-	[
-                "config/heroes/nspbjorn.json",
-                "config/heroes/nsptharag.json"
-	]
+	}	
 }
