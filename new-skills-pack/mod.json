@@ -22,7 +22,7 @@
 		"translations" : [
 			"translation/polish.json"
 		]
-	}
+	},
 	"russian" : {
 		"name" : "Набор новых Навыков",
 		"description" : "В этот мод включены несколько новых вторичных навыков",
