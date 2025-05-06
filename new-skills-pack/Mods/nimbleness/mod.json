@@ -24,5 +24,9 @@
 	"polish" : {
 		"name" : "Zwinność",
 		"description" : "Zwinność pozwala twoim jednostkom częściowo uniknąć ataku wroga, zmniejszając jego atak o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Ellaria(Rampart) i Traszka(Fortress) ze specjalizacją w umiejętności Zwinność"
-	}	
+	},
+	"russian" : {
+		"name" : "Проворство",
+		"description" : "Проворство позволяет вашему юниту частично уклоняться от атаки противника, снижая его атаку на 5%/10%/15%. Вероятность случайного получения навыка минимальна (1). Кроме того, появились новые герои - Эллария (Оплот) и Тритон (Крепость), специализирующиеся на навыке Проворство"
+	}
 }

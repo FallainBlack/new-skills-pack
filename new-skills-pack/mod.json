@@ -2,13 +2,14 @@
 	"name" : "New Skills Pack",
 	"description" : "New secondary skills pack",
 	"author": "FallainBlack (fury,anatomy,impact,nimbleness), avatar (magic fader)",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
     "modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
 	"changelog" :
 	{
-        "1.0.5" : [ "Fixed console warnings" ],
-		"1.0.4" : [ "magic fader update" ],
+        "1.0.6" : [ "Added russian translation" ],
+	"1.0.5" : [ "Fixed console warnings" ],
+	"1.0.4" : [ "magic fader update" ],
         "1.0.3" : [ "magic fader fix" ],
         "1.0.2" : [ "bug fix, new content, translation fix" ],
         "1.0.1" : [ "Change of file structure, minor fix, Polish translation added" ],
@@ -20,6 +21,13 @@
 		"description" : "Paczka nowych umiejętności drugorzędnych",
 		"translations" : [
 			"translation/polish.json"
+		]
+	},
+	"russian" : {
+		"name" : "Набор новых Навыков",
+		"description" : "В этот мод включены несколько новых вторичных навыков",
+		"translations" : [
+			"translation/russian.json"
 		]
 	}
 }

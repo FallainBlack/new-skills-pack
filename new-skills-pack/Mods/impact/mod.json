@@ -24,5 +24,9 @@
 	"polish" : {
 		"name" : "Uderzenie",
 		"description" : "ZBezprecedensowa szybkość i siła ciosów Twoich jednostek obniża obronę wroga o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie Bjorn(Castle) i Tharag(Stronghold) ze specjalizacją w umiejętności Uderzenie"
-	}	
+	},
+	"russian" : {
+		"name" : "Натиск",
+		"description" : "Беспрецедентная скорость и мощь ударов ваших юнитов снижают защиту противника на 5%/10%/15%. Вероятность получения навыка случайным образом минимальна (1). Кроме того, появились новые герои - Бьорн (Замок) и Торакс (Крепость), специализирующиеся на навыке Натиск."
+	}
 }
